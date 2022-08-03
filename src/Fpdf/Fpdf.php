@@ -977,7 +977,7 @@ function SetXY($x, $y)
 	$this->SetY($y,false);
 }
 
-function Output($dest='', $name='', $isUTF8=false)
+function Output($name='', $dest='F', $isUTF8=false)
 {
 	// Output PDF to some destination
 	$this->Close();
